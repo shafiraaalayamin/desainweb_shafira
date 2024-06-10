@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form pendaftaran</title>
+</head>
+<body>
+    <h2>Formulir Pendaftaran Mahasiswa Baru 2024/2025</h2>
+    <h3>Politeknik Negeri Fakfak</h3>
+
+    <form action="">
+       <table>
+        <tr>
+            <td>Nama Lengkap :</td>
+            <td>
+                <input type="text" name="nama" size="20">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Nim :</td>
+            <td>
+                <input type="text" name="nim" size="10">
+            </td>
+        </tr>
+
+        <tr>
+            <td>TTL :</td>
+            <td>
+                <input type="date" name="ttl">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Jenis Kelamin :</td>
+            <td>
+                <input type="radio" name="jk" value="Laki-laki">Laki-laki
+                <input type="radio" name="jk" value="Perempuan">Perempuan
+                <input type="radio" name="jk" value="Other">Other
+            </td>
+        </tr>
+
+        <tr>
+            <td>Alamat :</td>
+            <td>
+                <textarea type="komentar" id="" cols="22" rows="5"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Hobby :</td>
+            <td>
+                <input type="checkbox" name="hobby" value="voli">voli <br>
+                <input type="checkbox" name="hobby" value="futsal">futsal <br>
+                <input type="checkbox" name="hobby" value="menyanyi">Menyanyi <br>
+                <input type="checkbox" name="hobby" value="memasak">Memasak <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Video Saya</td>
+            <td>
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/CR9ijFuVwec?si=xA6soIP3ev2l8szy" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Jurusan :</td>
+            <td>
+                <select name="jurusan" id="">
+                    <option value="TL">Teknik Listrik</option>
+                    <option value="TM">Teknik Mesin</option>
+                    <option value="MI">manajemen Informatika</option>
+                    <option value="TS">Teknik Sipil</option>
+                    <option value="AG">Agroindustri</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="SIMPAN">
+                <input type="reset" value="RESET">
+            </td>
+        </tr>
+       </table>
+    </form>
+</body>
+</html>
